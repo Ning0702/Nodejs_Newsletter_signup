@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Newsletter Signup</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom css -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body class="text-center">
+    <main class="form-signin w-100 m-auto">
+      <form action="/" method="post">
+        <img
+          class="mb-4"
+          src="images/myLogo1.png"
+          alt=""
+          width="100"
+          height="100"
+        />
+        <h1 class="h3 mb-3 fw-normal">Sign up to my newsletter</h1>
+
+        <div class="form-floating">
+          <input
+            type="text"
+            name="fName"
+            class="form-control top"
+            placeholder="First Name"
+            required
+            autofocus
+          />
+        </div>
+        <div class="form-floating">
+          <input
+            type="text"
+            name="lName"
+            class="form-control middle"
+            placeholder="Last Name"
+            required
+          />
+        </div>
+        <div class="form-floating">
+          <input
+            type="email"
+            name="email"
+            class="form-control bottom"
+            placeholder="Email"
+            required
+          />
+        </div>
+        <button class="w-100 btn btn-lg btn-success" type="submit">
+          Sign Me Up
+        </button>
+        <p class="mt-5 mb-3 text-muted">&copy; Ning</p>
+      </form>
+    </main>
+  </body>
+</html>
