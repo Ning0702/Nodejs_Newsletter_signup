@@ -10,7 +10,7 @@ const port = 3000;
 app.use( express.static( "public" ) ); // put static doc work: css and images in public folder
 app.use( bodyParser.urlencoded( { extended: true } ) );
 
-client.setConfig( { apiKey: "46481dd7da7e90caf7b932bc4f094395-us21", server: "us21" } );
+client.setConfig( { apiKey: "CHANGE INTO MY KEY", server: "THE LAST PART OF MY KEY" } );
 
 app.get( "/", ( req, res ) =>
 {
